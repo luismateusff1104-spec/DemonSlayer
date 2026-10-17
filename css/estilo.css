@@ -3,9 +3,17 @@ body {
     color: white;
 }
 
+.logocontainer{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
 .imgLogo {
     text-align: center;
     height: auto;
+    margin: 0px;
+    width: 200px;
 }
 
 .cabecalho {
@@ -15,22 +23,73 @@ body {
 .cabecalho h1 a {
     text-decoration: none;
     color: aliceblue;
-    margin: 0 5px;
-}
-
-.cabecalho h1 a:visited {
-    color: aliceblue;
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.15s ease, color 0.15s ease;
 }
 
 .cabecalho h1 a:hover {
     color: red;
     text-decoration: none;
+    transform: scale(1.15) translateY(-2px);
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9));
+}
+
+.cabecalho h2 a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.cabecalho h2 a:hover {
+    color: red;
+    text-decoration: none;
+    transform: scale(1.15) translateY(-2px);
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.9));
 }
 
 .cabecalho hr{
     border: none;
     height: 2px;
     background-color: darkred;
-    width: 80%;
+    width: 100%;
     margin: 1px auto;
 }
+
+.banner1{
+    text-align: center;
+    margin: 2px;
+    width: 100%;
+}
+
+.h1{
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+}
+
+.hr1 {
+    width: 65%;
+    border: none;
+    height: 2px;
+    background-color: darkred;
+}
+
+.hr2 {
+    width: 65%;
+    border: none;
+    height: 2px;
+    background-color: darkred;
+}
+
+.hr3 {
+    width: 65%;
+    border: none;
+    height: 2px;
+    background-color: darkred;
+}
+
